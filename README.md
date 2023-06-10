@@ -1,16 +1,16 @@
 # circosPlot
-Circos plot of gene interactions using the effect size and individual haplotypes within each gene. 
+Circos plot of gene interactions using the effect size and individual genotypes within each allele. 
 
 This plot was generated using pycircos found here: https://github.com/ponnhide/pyCircos. 
 
 # Outer ring
-Genes with width set as the combined haplotype effect sizes
+Alleles with width set as the summed effect sizes from every SNP in allele.
 
 # Middle ring
-Heatmap of the haplotype effect sizes within each gene (AA, BB, CC, AB,... etc)
+Heatmap of the genotype effect sizes within each allele (AA, BB, CC, AB,... etc)
 
 # Inner circle
-Weighted connections between the genes and subsequently the haplotypes within those genes
+Weighted effect sizes (epistatic interactions) between the alleles and subsequently the genotypes within those alleles
 
 
 # Test Plot
